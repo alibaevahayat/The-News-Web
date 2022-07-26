@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+
+}
+
+.link {
+    text-decoration: none;
+    font-style: 18px;
+    font-weight: 700;
+    color: #3A3838;
+    transition: 0.5s;
+    display: inline-block;
+    padding: 15px 0;
+    padding-left: 15px;
+}
+
+.link:hover {
+    color: #EF4423;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .content {
+    width: 100%;
+}
+
+.preview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preview h2 {
+    font-size: 19px;
+    font-weight: 700;
+    padding: 0 15px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.preview p {
+    font-weight: 16px;
+    color: #EBEBEB;
+    padding: 0 15px;
+}
+
+.preview .card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview img {
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.red {
+    background: #B71C1C;
+    padding-bottom: 15px;
+}
+.purple {
+    background: #6A1B9A;
+    padding-top: 15px;
+}
+.blue {
+    background: #303F9F;
+    padding-bottom: 15px;
+}
+.green {
+    background: #00695C;
+    padding-top: 15px;
+}
+
+.red img {
+    margin-bottom: 8px;
+}
+.purple img {
+    margin-top: 8px;
+}
+.blue img {
+    margin-bottom: 8px;
+}
+.green img {
+    margin-top: 8px;
+}
+
+.news .content {
+    background: #EDEDED;
+
+}
+
+.news .title {
+    color: #3A3838;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 22px;
+}
+
+.news img {
+    max-width: 555px;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.news .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news .box {
+    max-width: 540px;
+    width: 100%;
+}
+
+.news .subtitle {
+    font-size: 22px;
+    color: #3A3838;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.news .desc {
+    color: #686868;
+    font-size: 18px;
+}
+
+.footer {
+    background: #3A3838;
+    margin-top: 50px;
+}
+
+.footer .nav .container {
+    padding: 28px 0;
+}
+
+.footer .link {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer .link:hover {
+    color: #EF4423;
+}
